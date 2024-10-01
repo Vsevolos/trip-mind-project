@@ -97,3 +97,69 @@ body {
     color: #311;
   }
 }
+
+// Tour
+.tour {
+  padding: 50px 0;
+
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__image {
+    position: relative;
+    background-image: url("../images/mountains.png");
+    height: 300px;
+    background-position-x: 35%;
+    border-radius: 16px;
+
+    &-shadow {
+      background-color: var(--main-text);
+      height: 300px;
+      opacity: 0.5;
+      border-radius: 16px;
+    }
+
+    &-date {
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      width: 65px;
+
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--primary-color);
+
+      &-span {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 126%;
+        color: var(--primary-color);
+      }
+    }
+
+    &-text {
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+      width: 160px;
+
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 161%;
+      color: var(--primary-color);
+    }
+
+    &-icon {
+      fill: var(--primary-color);
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+    }
+  }
+}
