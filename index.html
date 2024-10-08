@@ -45,7 +45,17 @@
     <section class="tour">
       <div class="container">
         <div class="tour__wrapper">
-          <div class="tour__image">
+          <div class="tour__image" id="mountains">
+            <div class="tour__image-shadow"></div>
+            <p class="tour__image-date">
+              <span class="tour__image-date-span">10-24</span> апреля
+            </p>
+            <p class="tour__image-text">Большое ущелье на острове Гавайи</p>
+            <svg class="tour__image-icon">
+              <use href="./src/images/symbol-defs.svg#arrow-right"></use>
+            </svg>
+          </div>
+          <div class="tour__image" id="forest">
             <div class="tour__image-shadow"></div>
             <p class="tour__image-date">
               <span class="tour__image-date-span">10-24</span> апреля
@@ -57,6 +67,53 @@
           </div>
           <div class="tour__info"></div>
         </div>
+      </div>
+    </section>
+    <section class="callback">
+      <div class="container">
+        <div class="callback__info">
+          <p class="callback__info-title">
+            Leave request for free consultaiton
+          </p>
+          <p class="callback__info-text">We will call you back shortly</p>
+        </div>
+        <form class="callback__form">
+          <input
+            class="callback__form-input1"
+            type="name"
+            placeholder="Your name"
+          />
+          <input
+            class="callback__form-input2"
+            type="tel"
+            placeholder="+38 (0__) ___-__-__"
+          />
+          <button class="callback__form-button" type="submit">
+            Send request
+          </button>
+
+          <p class="callback__form-additional">
+            Нажимая кнопку, вы даёте согласие на
+            <span class="callback__form-additional-span"
+              >обработку персональных данных</span
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__info"></div>
+      <div class="reviews__image" id="reviews__photo">
+        <div class="reviews__image-shadow"></div>
+        <p class="reviews__image-date">
+          <span class="reviews__image-date-span">Review</span> Elena Ivanovna
+        </p>
+        <p class="reviews__image-text">
+          Пожалуй, это был самый лучший отпуск в моей жизни…
+        </p>
+        <svg class="reviews__image-icon">
+          <use href="./src/images/symbol-defs.svg#arrow-right"></use>
+        </svg>
       </div>
     </section>
   </body>

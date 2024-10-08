@@ -88,7 +88,6 @@ body {
 }
 .tour__image {
   position: relative;
-  background-image: url("../images/mountains.png");
   height: 300px;
   background-position-x: 35%;
   border-radius: 16px;
@@ -134,4 +133,137 @@ body {
   position: absolute;
   bottom: 30px;
   right: 30px;
+}
+
+#mountains {
+  background-image: url("../images/mountains.png");
+  margin-bottom: 30px;
+}
+
+#forest {
+  background-image: url("../images/forest.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callback {
+  background-image: url("../images/callbackBg.png");
+  background-size: cover;
+  padding: 40px 0;
+  background-position-x: 34%;
+}
+.callback__info {
+  text-align: center;
+}
+.callback__info-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 131%;
+  color: var(--main-text);
+}
+.callback__info-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 183%;
+  color: var(--main-text);
+  margin-top: 15px;
+}
+.callback__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+.callback__form-input1, .callback__form-input2 {
+  width: 100%;
+  border: 2px solid #ced8df;
+  border-radius: 38px;
+  height: 50px;
+  padding-left: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--third-color);
+}
+.callback__form-button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #311;
+  border-radius: 38px;
+  width: 100%;
+  height: 50px;
+  background-color: var(--accent-color);
+  border: none;
+}
+.callback__form-additional {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 164%;
+  text-align: center;
+  color: var(--main-text);
+}
+.callback__form-additional-span {
+  color: var(--accent-color);
+}
+
+.reviews__image {
+  position: relative;
+  height: 300px;
+  background-position-x: 35%;
+  border-radius: 16px;
+}
+.reviews__image-shadow {
+  background-color: var(--main-text);
+  height: 300px;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+.reviews__image-date {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 65px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.reviews__image-date-span {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 126%;
+  color: var(--primary-color);
+}
+.reviews__image-text {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  width: 160px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 161%;
+  color: var(--primary-color);
+}
+.reviews__image-icon {
+  fill: var(--primary-color);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+#reviews__photo {
+  background-image: url("../images/reviews.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */
