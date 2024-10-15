@@ -254,12 +254,19 @@ body {
 }
 
 // Reviews
+.reviews{
+  padding: 15px;
+}
+.reviews__info{
+  text-align: center;
+}
 .reviews {
   &__image {
     position: relative;
     height: 300px;
     background-position-x: 35%;
     border-radius: 16px;
+    width: 300px;
 
     &-shadow {
       background-color: var(--main-text);
@@ -317,3 +324,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#reviews__second-photo{
+  background-image: url("../images/reviews.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#reviews__third-photo{
+  background-image: url("../images/reviews.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__info{
+  display: none;
+}
+.footer{
+  color: #90A4B2;
+  
+}
+
