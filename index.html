@@ -23,6 +23,11 @@
             <svg class="nav__logo">
               <use href="./src/images/symbol-defs.svg#logo"></use>
             </svg>
+            <div class="nav__list">
+              <a href="" class="nav__list-item">Все туры</a>
+              <a href="" class="nav__list-item">Отзывы</a>
+              <a href="" class="nav__list-item">Контакты</a>
+            </div>
             <!-- burger -->
             <svg class="nav__burger">
               <use href="./src/images/symbol-defs.svg#burger"></use>
@@ -33,11 +38,47 @@
 
       <section class="hero">
         <div class="container">
-          <h1 class="hero__title">Discover New Ireland.</h1>
-          <p class="hero__paragraph">
-            Author's tours to exotic places by Ivan Ivanov
-          </p>
-          <button class="hero__button">Leave a request</button>
+          <div class="hero__main-container">
+            <div class="hero__container">
+              <h1 class="hero__title">Discover New Ireland.</h1>
+              <p class="hero__paragraph">
+                Author's tours to exotic places by Ivan Ivanov
+              </p>
+              <button class="hero__button">Leave a request</button>
+            </div>
+            <div class="hero__cards">
+              <div class="hero__cards-images" id="reviews__photo">
+                <div class="hero__image-shadow"></div>
+                <p class="reviews__image-date">
+                  <span class="reviews__image-date-span">01</span>
+                </p>
+                <p class="tour__image-text">Прекрасные горы</p>
+                <svg class="reviews__image-icon">
+                  <use href="./src/images/symbol-defs.svg#arrow-right"></use>
+                </svg>
+              </div>
+              <div class="hero__cards-images" id="reviews__second-photo">
+                <div class="hero__image-shadow"></div>
+                <p class="reviews__image-date">
+                  <span class="reviews__image-date-span">02</span>
+                </p>
+                <p class="tour__image-text">Прекрасные горы</p>
+                <svg class="reviews__image-icon">
+                  <use href="./src/images/symbol-defs.svg#arrow-right"></use>
+                </svg>
+              </div>
+              <div class="hero__cards-images" id="reviews__third-photo">
+                <div class="hero__image-shadow"></div>
+                <p class="reviews__image-date">
+                  <span class="reviews__image-date-span">03</span>
+                </p>
+                <p class="tour__image-text">Прекрасные горы</p>
+                <svg class="reviews__image-icon">
+                  <use href="./src/images/symbol-defs.svg#arrow-right"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -54,6 +95,18 @@
             <svg class="tour__image-icon">
               <use href="./src/images/symbol-defs.svg#arrow-right"></use>
             </svg>
+          </div>
+          <div class="tour__wrapper-info">
+            <h1 class="tour__wrapper-info-title">
+              Посмотрите все направления туров
+            </h1>
+            <p class="tour__wrapper-info-text">
+              Берега океанов и дикие пляжи с редкими породами
+              деревьев.Местная архитекутра и первозданный вид дикой природы
+            </p>
+            <button>
+
+            </button>
           </div>
           <div class="tour__image" id="forest">
             <div class="tour__image-shadow"></div>
@@ -143,18 +196,20 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer__info">
-        <img src="" alt="">
-        <p>Политика
-          конфиденциальности</p>
-        <p>Соглашение на обработку
-          персональных данных</p>
-      </div>
-      <div class="footer__contact">
-        <img src="../src/images/facebook.png" alt="" class="footer__contact-image">
-        <img src="../src/images/twitter.png" alt="" class="footer__contact-image">
-        <img src="../src/images/instagram.png" alt="" class="footer__contact-image">
-        <img src="../src/images/youtube.png" alt="" class="footer__contact-image">
+      <div class="container">
+        <div class="footer__info">
+          <img src="" alt="">
+          <p>Политика
+            конфиденциальности</p>
+          <p>Соглашение на обработку
+            персональных данных</p>
+        </div>
+        <div class="footer__contact">
+          <img src="../src/images/facebook.png" alt="" class="footer__contact-image">
+          <img src="../src/images/twitter.png" alt="" class="footer__contact-image">
+          <img src="../src/images/instagram.png" alt="" class="footer__contact-image">
+          <img src="../src/images/youtube.png" alt="" class="footer__contact-image">
+        </div>
       </div>
     </footer>
   </body>
